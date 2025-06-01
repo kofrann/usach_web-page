@@ -14,10 +14,16 @@
 <!-- se reescribio de nuevo el index, para eliminar ccs que no funcionan o estan demas, y quede mas  unificado  -->
 
 <body>
+    <div class="layout">
+
+    
     <header class="title">
-        <h1>Pagina Web</h1>
-        <p>Se aplica flexbox y grid.</p>
-    </header>
+  <img src="/img/LOGO.png" class="title__image" alt="Imagen de cabecera">
+  <div class="title__titulosyp">
+    <h1>Pagina Web</h1>
+    <p>Se aplica flexbox y grid.</p>
+  </div>
+</header>
     <header class="header">
         <img class="header__image" alt="">
         <nav class="menu">
@@ -30,10 +36,11 @@
                     <a class="menu__link" href="#">Menu 2</a>
                 </li>
                 <li class="menu__item">
-                    <a class="menu__link menu__link--active" href="#">Menu 3</a>
+                    <a class="menu__link menu__link" href="#">Menu 3</a>
                 </li>
             </ul>
         </nav>
+
 
     </header>
     <div id="demo" class="carousel slide" data-bs-ride="carousel" ">
@@ -77,7 +84,7 @@
         <span class="carousel-control-next-icon"></span>
     </button>
     </div>
-    <div class="container">
+    <div class="mi_container">
 
         <section class="section">
             <h2>Titulo de seccion</h2>
@@ -88,25 +95,30 @@
 
 
         <div class="related-post">
-            Another Post
+            <img src="https://fastly.picsum.photos/id/770/300/200.jpg?hmac=z1ZdzTltWNDQmr7Cl_G8iNfkqH2rPfk6x0yda7lvwXo" alt="desempleado" class="relatedpost__image">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </div>
         <div class="related-post">
-            Another Post
+            <img src="https://fastly.picsum.photos/id/465/300/200.jpg?hmac=wuEFdLMQetfdFjgfRj-29__8dqdpB3IlwoF86SAvwcM" alt="desempleado" class="relatedpost__image">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
         <div class="related-post">
-            Another Post
+            <img src="https://loremflickr.com/cache/resized/defaultImage.small_300_200_nofilter.jpg" alt="desempleado" class="relatedpost__image">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         </div>
         <div class="related-post">
-            Another Post
+            <img src="https://fastly.picsum.photos/id/397/300/200.jpg?hmac=kZXPXF4molO5XamD6ZXaTkOMtZdFXMKwcZHgWe3MW-Q" alt="desempleado" class="relatedpost__image">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         </div>
         <div class="related-post">
-            Another Post
+            <img src="https://fastly.picsum.photos/id/456/300/200.jpg?hmac=_IJQ81tU1tfr0xGnGGNk3ka0PPuBBq0_AjFBsUd2ADs" alt="desempleado" class="relatedpost__image">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         </div>
         <footer class="footer">
             <div class="text-white text-center pb-3">
                 <h2>footer</h2>
                 <div class="d-flex justify-content-center gap-3"> <!-- Contenedor flex -->
-                    
+
                     <p class="m-1">
                         <a href="https://www.linkedin.com/in/franco-urra/" target="_blank" rel="noopener noreferrer"
                             aria-label="Perfil LinkedIn de Franco Urra" class="linkedin-icon">
@@ -114,12 +126,11 @@
                         </a>
                     </p>
                     <p class="m-0">
-  <a href="mailto:kofran.cl@gmail.com" 
-     aria-label="Enviar email a kofran.cl@gmail.com"
-     class="email-icon">
-    <i class="bi bi-envelope-fill"></i>
-  </a>
-</p>
+                        <a href="mailto:kofran.cl@gmail.com" aria-label="Enviar email a kofran.cl@gmail.com"
+                            class="email-icon">
+                            <i class="bi bi-envelope-fill"></i>
+                        </a>
+                    </p>
                 </div>
             </div>
         </footer>
@@ -128,6 +139,7 @@
 
     </div>
     <!-- Carousel -->
+     </div>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
