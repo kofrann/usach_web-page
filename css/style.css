@@ -131,8 +131,8 @@ background: linear-gradient(180deg, rgba(20, 20, 227, 1) 0%, rgba(155, 234, 250,
     flex-direction: row;
    display: flex;
   align-items: center;
-  justify-content: space-around; /* o space-around */
-  flex-wrap: wrap; /* por si en pantallas pequeñas se necesita */
+  justify-content: space-around; 
+  flex-wrap: wrap; 
   text-align: center;
   padding: 1rem;
   background: #1E90FF;
@@ -214,14 +214,7 @@ background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(242, 206, 121, 1
 }
 
 .mi_container > .related-post {
-     /* grid-row: 1/6;
-     background: #2d3436;
-     color: #ffff;
-     height: 180px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     transition: all 0.5s ease; */
+    
        grid-row: 1/6;
     background:#004182;
     color: #fff;
@@ -277,8 +270,46 @@ background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(242, 206, 121, 1
   .email-icon i {
     font-size: 1.5rem;
   }
- /* @media (min-width: 1400px) {
-    .mi_container {
-        max-width: 1200px;
-    }
-} */
+ 
+  @media only screen and (max-width: 600px) {
+   .title {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    padding: 0.5rem;
+  }
+
+  .title__image {
+    max-width: 80px;
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+
+  .title__titulosyp {
+    margin-right: 0;
+    flex: 1;
+  }
+  .title h1, .title p {    
+    margin: auto;
+    text-align: center;
+}
+  
+
+.mi_container > .related-post {
+    grid-column: 1/-1;
+    grid-row: auto;
+    
+}
+.relatedpost__image {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem auto; /* centrada horizontalmente */
+}
+
+}
+
+
+  /* www.softwarelibrechile.cl/G25-S1-03-Tarea */

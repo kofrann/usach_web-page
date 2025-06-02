@@ -1,0 +1,19 @@
+{
+  "name": "trabajo-1-v2",
+  "version": "1.0.0",
+  "description": "migrando css asass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kofrann/usah_web-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kofrann/usah_web-page/issues"
+  },
+  "homepage": "https://github.com/kofrann/usah_web-page#readme"
+}
